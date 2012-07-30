@@ -12,7 +12,7 @@
   <nav class="primary-menu">
     <?php print l('Sök', 'sok', array('attributes' => array('class' => array('button')))); ?>
     <?php print l('Om', 'node/84', array('attributes' => array('class' => array('button')))); ?>
-    <?php print l('Nytt julrim', 'node/add/julrim', array('attributes' => array('class' => array('button')))); ?>
+    <?php print // l('Nytt julrim', 'node/add/julrim', array('attributes' => array('class' => array('button')))); ?>
   </nav>
 
   <?php if (isset($tabs) && $tabs) {
