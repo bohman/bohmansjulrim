@@ -1,0 +1,242 @@
+/* GENERAL -------------- */
+body {
+  font-family: 'Signika', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover,
+a:focus {
+  color: #F00;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3em;
+  display: block;
+}
+
+input[type="submit"] {
+  white-space: normal;
+  box-sizing: content-box;
+  margin: 0;
+}
+
+input[type="submit"]::-moz-focus-inner {
+  border: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea,
+a.selectBox {
+  padding: 10px 25px;
+  border: 5px solid #000;
+  font-size: inherit;
+  background: transparent;
+  font-family: inherit;
+  color: #000;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  border-radius: 0 !important;
+}
+
+a.selectBox.selectBox-active .selectBox-arrow,
+a.selectBox.selectBox-active {
+  border-color: #000;
+}
+
+a.selectBox.selectBox-menuShowing .selectBox-arrow,
+a.selectBox.selectBox-menuShowing,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #f00;
+}
+
+.selectBox-dropdown .selectBox-arrow {
+  border-left: 5px solid #000;
+}
+
+.selectBox-dropdown .selectBox-label {
+  padding: 0;
+}
+
+.selectBox-dropdown-menu {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 5px solid #f00;
+  border-top: 0;
+}
+
+.selectBox-dropdown-menu a {
+  padding: 5px !important;
+}
+
+.selectBox-hover a {
+  color: #fff !important;
+  background: #f00 !important;
+}
+
+.selectBox-selected a {
+  color: #fff !important;
+  background: #000 !important;
+}
+
+
+/* LEFT PANE (INTRODUCTION PANE) -------------- */
+.introduction-pane .site-name a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 800;
+  background: transparent url('../img/logo.png') top left no-repeat;
+  padding-top: 125px;
+}
+
+.introduction-pane .site-name a:hover,
+.introduction-pane .site-name a:focus {
+  background-image: url('../img/logo-hover.png');
+}
+
+.primary-menu a {
+  margin-top: 5px;
+  display: block;
+}
+
+.primary-menu a:first-child {
+  margin-top: 0;
+}
+
+.tabs {
+  padding: 0;
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+
+.tabs li a {
+  float: right;
+  margin-top: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tabs li:first-child a {
+  margin-top: 0;
+}
+
+
+/* RIGHT PANE (CONTENT PANE) -------------- */
+.pager,
+.author-list {
+  font-size: 0;
+}
+
+.pager > *,
+.author-list > * {
+  font-size: 17px !important;
+}
+
+.author-list {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.author-list a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  padding: 5px 18px;
+  width: auto;
+}
+
+.author-list a:first-child {
+  margin-top: 0;
+}
+
+.author-list a:hover,
+.author-list a:focus {
+  background: #f00;
+  color: #fff;
+}
+
+.author-list a:hover .tag-icon,
+.author-list a:focus .tag-icon {
+  background: #fff;
+  color: #f00;
+}
+
+.author-list .tag-icon {
+  margin-right: 10px;
+}
+
+.pager > * {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.pager li {
+  display: inline-block;
+}
+
+.term-listing-heading p {
+  margin-top: 5px;
+}
+
+/* Search */
+.views-exposed-form {
+  font-size: 0;
+}
+
+.views-exposed-form #edit-julrim-wrapper,
+.views-exposed-form #edit-svar-wrapper,
+.views-exposed-form #edit-forfattare-wrapper,
+.views-exposed-form #edit-ar-wrapper,
+.views-exposed-form .views-submit-button {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 17px;
+}
+
+.views-exposed-form #edit-forfattare-wrapper {
+  clear: left;
+}
+
+.views-exposed-form #edit-julrim-wrapper,
+.views-exposed-form #edit-svar-wrapper {
+  width: 300px;
+}
+
+.views-exposed-form #edit-julrim-wrapper input {
+  width: 240px;
+}
+
+.views-exposed-form #edit-svar-wrapper {
+  max-width: 295px;
+}
+
+.views-exposed-form #edit-svar-wrapper input {
+  width: 235px;
+}
+
+.views-exposed-form #edit-ar-wrapper a.selectBox,
+.views-exposed-form #edit-forfattare-wrapper a.selectBox {
+  width: 171px !important;
+}
+
+.views-exposed-form .views-submit-button,
+.views-exposed-form #edit-ar-wrapper,
+.views-exposed-form #edit-svar-wrapper {
+  margin-left: 5px;
+}

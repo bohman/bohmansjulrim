@@ -1,0 +1,120 @@
+/* Typographic elements */
+.node-sida,
+.tagline,
+.term-listing-heading *,
+.title,
+.rhyme,
+.answer,
+.metadata {
+  line-height: 1.2em;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.rhyme {
+  font-weight: 600;
+  font-size: 28px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.answer {
+  font-weight: 600;
+}
+
+.views-exposed-form #edit-forfattare-wrapper,
+.node-sida p,
+.answer,
+.rhyme p,
+.metadata {
+  margin-top: 18px;
+}
+
+.node-sida p:first-child,
+.rhyme p:first-child {
+  margin-top: 0;
+}
+
+
+/* Interactiveness */
+/* Base button class */
+input[type="submit"],
+.year-list a,
+.metadata a,
+.pager .current,
+.pager .ellipsis,
+.pager a,
+.tabs a,
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 5px solid #000;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1em;
+}
+
+/* Button active class */
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+.tabs .active a,
+.year-list a:focus,
+.year-list a:hover,
+.metadata a:hover,
+.metadata a:focus,
+.pager .current,
+.pager a:hover,
+.pager a:focus,
+.tabs a:hover,
+.tabs a:focus,
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: #F00;
+  border-color: #F00;
+  cursor: pointer;
+}
+
+/* Button hollow class */
+.pager .ellipsis {
+  background: transparent;
+  color: #000;
+}
+
+/* Icons */
+.tag-icon {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: none;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+a.tag-icon:hover,
+a.tag-icon:focus {
+  background: #f00;
+  color: #fff;
+}
+
+.title .tag-icon {
+  vertical-align: bottom;
+}

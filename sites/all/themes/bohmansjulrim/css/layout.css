@@ -1,0 +1,33 @@
+.introduction-pane {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px #dbdbdb solid;
+}
+
+.content-pane {
+  margin-left: 301px;
+}
+
+.introduction-pane > *,
+.content-pane > * {
+  padding: 18px 25px;
+}
+
+.content-pane > * {
+  border-top: 1px #dbdbdb solid;
+}
+
+.content-pane > *:first-child {
+  border-top: 0;
+}
+
+.content-pane > * > * {
+  width: 600px;
+}
+
+.content-pane .year-list a {
+  width: auto;
+}
