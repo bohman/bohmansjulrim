@@ -12,8 +12,7 @@
   <nav class="primary-menu">
     <?php print l('Sök', 'sok', array('attributes' => array('class' => array('button')))); ?>
     <?php print l('Om', 'node/84', array('attributes' => array('class' => array('button')))); ?>
-    <?php // Below link is temp, should be removed later ?>
-    <a href="/node/add/julrim" class="button">Nytt julrim</a>
+    <?php print l('Nytt julrim', '/node/add/julrim', array('attributes' => array('class' => array('button')))); ?>
   </nav>
 
   <?php if ($tabs) {
